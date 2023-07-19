@@ -12,6 +12,14 @@
             "rabiesExpiration": "December 21, 2024",
             "notes": "Best dog ever"
         }
+        ],
+        "appointment": [
+                {
+                    "date": "November 21, 2023",
+                    "groomer": "Marry Ann",
+                    "location": "Mobile 1",
+                    "notes": "Come to back of house"
+                }
         ]
     },
     {

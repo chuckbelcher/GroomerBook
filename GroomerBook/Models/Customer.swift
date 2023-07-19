@@ -19,5 +19,5 @@ class Customer: Identifiable, Decodable {
     var homePhone: String?
     var cellPhone: String?
     var pets: [Pet]?
-    var appointments [Appointment]?
+    var appointment: [Appointment]?
 }
