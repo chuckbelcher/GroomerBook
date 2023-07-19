@@ -1,5 +1,62 @@
 [
-        {
-            
+    {
+        "name": "Chuck Murphy",
+        "address": "8001 Boardwalk Rd",
+        "city": "Baltimore",
+        "state": "Maryland",
+        "email": "chuckbelcher@emails.com",
+        "cellPhone": "4431254445",
+        "pets": [ {
+            "name": "Lulu",
+            "breed": "German Shephard",
+            "rabiesExpiration": "December 21, 2024",
+            "notes": "Best dog ever"
         }
-]
+        ]
+    },
+    {
+        "name": "Christina Listers",
+        "address": "101 Petfriendly lane",
+        "city": "Baltimore",
+        "state": "Maryland",
+        "email": "christinabelcher@corporate.com",
+        "cellPhone": "4107779598",
+        "homePhone": "4102256644",
+        "pets": [ {
+            "name": "Butters",
+            "breed": "English Sheepdog",
+            "weight": 125,
+            "vet": "Baltimore Vetenarian Center",
+            "rabiesExpiration": "December 21, 2024",
+            "groomer": "Marry Ann",
+            "notes": "Likes to bark"
+        },
+            {
+                "name": "Bitters",
+                "breed": "Hound Dog",
+                "weight": 35,
+                "vet": "Baltimore Vetenarian Center",
+                "rabiesExpiration": "December 21, 2024",
+                "notes": "Likes to eat the furniture"
+            }            ]
+    },
+    {
+        "name": "Haley Belisher",
+        "address": "800 S. Boardwalk Rd",
+        "city": "Baltimore",
+        "state": "Maryland",
+        "cellPhone": "4431247445",
+        "pets": [ {
+            "name": "Hermidi",
+            "breed": "Great Dane",
+            "rabiesExpiration": "December 21, 2024"
+        }
+        ]
+    },
+    {
+        "name": "John Franks",
+        "address": "8 N. Hellman Rd",
+        "city": "Baltimore",
+        "state": "Maryland",
+        "cellPhone": "4102648964"
+    }]

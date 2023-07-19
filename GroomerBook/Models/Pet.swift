@@ -10,10 +10,10 @@ import Foundation
 class Pet: Identifiable, Decodable {
     var id: UUID?
     var name: String
-    var breed: String
-    var weight: Int
-    var Vet: String
-    var RabiesExpiration: String
-    var Groomer: String?
-    var Notes: String?
+    var breed: String?
+    var weight: Int?
+    var vet: String?
+    var rabiesExpiration: String
+    var groomer: String?
+    var notes: String?
 }
