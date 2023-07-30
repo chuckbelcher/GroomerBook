@@ -17,6 +17,8 @@
 		3290C3022A6781BF0074DB6C /* CustomerListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3290C3012A6781BF0074DB6C /* CustomerListView.swift */; };
 		3290C3042A6781DF0074DB6C /* CustomerDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3290C3032A6781DF0074DB6C /* CustomerDetailView.swift */; };
 		3290C3062A67822D0074DB6C /* Appointment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3290C3052A67822D0074DB6C /* Appointment.swift */; };
+		3290C3082A7617200074DB6C /* CustomerModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3290C3072A7617200074DB6C /* CustomerModel.swift */; };
+		3290C30A2A7617560074DB6C /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3290C3092A7617560074DB6C /* DataService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +34,8 @@
 		3290C3012A6781BF0074DB6C /* CustomerListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomerListView.swift; sourceTree = "<group>"; };
 		3290C3032A6781DF0074DB6C /* CustomerDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomerDetailView.swift; sourceTree = "<group>"; };
 		3290C3052A67822D0074DB6C /* Appointment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Appointment.swift; sourceTree = "<group>"; };
+		3290C3072A7617200074DB6C /* CustomerModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomerModel.swift; sourceTree = "<group>"; };
+		3290C3092A7617560074DB6C /* DataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +110,7 @@
 		3290C2F82A5CFF770074DB6C /* ViewModels */ = {
 			isa = PBXGroup;
 			children = (
+				3290C3072A7617200074DB6C /* CustomerModel.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -123,6 +128,7 @@
 		3290C2FA2A5CFFA10074DB6C /* Services */ = {
 			isa = PBXGroup;
 			children = (
+				3290C3092A7617560074DB6C /* DataService.swift */,
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -198,7 +204,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3290C30A2A7617560074DB6C /* DataService.swift in Sources */,
 				3290C2FE2A5D04080074DB6C /* Customer.swift in Sources */,
+				3290C3082A7617200074DB6C /* CustomerModel.swift in Sources */,
 				3290C3002A5D050F0074DB6C /* Pet.swift in Sources */,
 				3290C2EA2A5CFDCA0074DB6C /* MainView.swift in Sources */,
 				3290C2E82A5CFDCA0074DB6C /* GroomerBookApp.swift in Sources */,

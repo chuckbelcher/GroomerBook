@@ -17,7 +17,7 @@ struct MainView: View {
                     }
                 }
             
-            Text("Customer View")
+            CustomerListView()
                 .tabItem {
                     VStack {
                         Label("Customers", systemImage: "person")
